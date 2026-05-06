@@ -1,0 +1,1070 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+  outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  max-width: 100%;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-size: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+
+img {
+  border: 0; /* 1 */
+  -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+  margin: 0;
+}
+
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+
+form {
+  margin: 0;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0;
+  white-space: normal; /* 2 */
+  *margin-left: -7px; /* 3 */
+}
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  vertical-align: baseline; /* 3 */
+  *vertical-align: middle; /* 3 */
+}
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+  *overflow: visible; /* 4 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+  *height: 13px; /* 3 */
+  *width: 13px; /* 3 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+
+textarea {
+  overflow: auto; /* 1 */
+  vertical-align: top; /* 2 */
+}
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* body style start */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+img {
+  max-width: auto;
+  max-height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* body style end */
+
+/* header style start */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 5px 20px #e0e0e0;
+  background-color: white;
+  z-index: 9999;
+}
+
+.header_button a {
+  display: block;
+  width: 78px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.header_button a,
+span {
+  position: relative;
+  z-index: 2;
+}
+
+.header_button a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #57ad56;
+  transition: all 0.35s;
+}
+
+.header_button a:hover {
+  color: #fff;
+}
+
+.header_button :hover:after {
+  width: 100%;
+}
+
+.header_button_cart {
+  margin-left: 8px;
+}
+
+/* header style end */
+
+/* search style start */
+
+.search-form {
+  width: 100%;
+  margin-top: 104px;
+  margin-bottom: 56px;
+  border-bottom: 1px solid #757575;
+}
+
+.search-form_field {
+  border: 0;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+::placeholder {
+  color: #979797;
+}
+
+/* search style end */
+
+/* restaurant cards style start */
+
+.title_city {
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 16px;
+}
+
+.restaurant_card {
+  margin-bottom: 16px;
+}
+
+.restaurant_card:hover {
+  border: 3px solid #57ad56;
+}
+
+.restaurant_card-thumb {
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.restaurant_card-title {
+  margin-bottom: 4px;
+}
+
+.restaurant_card-subtitle {
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+  margin-bottom: 4px;
+}
+
+.restaurant_card-subtitle-time_delivery {
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+/* restaurant cards style end */
+
+/* footer style start */
+
+.footer {
+  background-color: #262626;
+  margin-top: 80px;
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+
+.footer_logo {
+  margin-bottom: 40px;
+}
+
+.footer_card.col-md-3 {
+  padding: 0px;
+}
+
+.create-line {
+  width: 100%;
+  border-top: 1px solid #979797;
+  margin-bottom: 40px;
+}
+/* Стиль Выпадающей Кнопки */
+
+.dropbtn {
+  background-color: #3b3b3b;
+  font-size: 13px;
+  line-height: 15.2px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #3b3b3b;
+  width: 100%;
+  margin-bottom: 32px;
+  min-width: 131px;
+}
+
+/* Выпадающей контент (по умолчанию скрыт) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  font-size: 13px;
+  line-height: 15.2px;
+  padding: 12px 52px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменить цвет выпадающих ссылок при наведении */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Показать выпадающее меню при наведении */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.world-ico {
+  padding: 12px 16px;
+}
+
+.dropdown-ico {
+  float: right;
+  padding: 16px 8px;
+}
+
+.footer_socials {
+  padding-left: 8px;
+  margin-bottom: 40px;
+}
+
+.social_title_hashtag {
+  color: #49a144;
+  line-height: 18.8px;
+}
+
+.social_title_text {
+  line-height: 18.8px;
+  color: white;
+}
+
+.social_title {
+  margin-bottom: 16px;
+}
+
+.twitter-ico {
+  padding: 0px 12px;
+}
+
+.footer_link {
+  color: white;
+  font-size: 13px;
+  line-height: 15.2px;
+  margin-bottom: 23px;
+}
+
+.footer_link a:hover {
+  opacity: 0.5;
+}
+
+.footer_link-FAQs {
+  margin-bottom: 40px;
+}
+
+.download_links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  margin-bottom: 40px;
+}
+
+.store_link_wrap {
+  padding: 40px 20px;
+}
+
+.store-thumb {
+  max-width: 100%;
+  max-height: 40px;
+}
+
+.footer_pt_link {
+  font-size: 11px;
+  color: white;
+}
+
+.footer_pt_link a:hover {
+  opacity: 0.5;
+}
+
+.footer_pt_link.col-md-4:nth-last-child(3) {
+  padding: 0px;
+}
+
+/* footer style end */
+
+/* btn-up style start */
+
+.btn-up_wrapper {
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  z-index: 9999;
+}
+
+.btn-up {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-up:hover {
+  border: 3px solid white;
+}
+
+/* btn-up style end */
+
+@media only screen and (max-width: 767px) {
+  .footer_card.col-md-4 {
+    padding: 0px;
+  }
+
+  .store_link_wrap {
+    padding: 24px 16px;
+  }
+
+  .footer_pt_link.col-md-4 {
+    padding: 0px;
+    margin-bottom: 24px;
+  }
+
+  .footer_pt_link:last-child {
+    margin-bottom: 0px;
+  }
+
+  .btn-up-img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+/* Page_2 Jumbotron style start */
+
+.jumbotron_wrapper.col-xs-12 {
+  margin-top: 72px;
+  background-image: url(../img/jumbotron_pushkin.png);
+  height: 365px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 1650px) {
+  .jumbotron_wrapper.col-xs-12 {
+    background-repeat: no-repeat;
+    background-size: 72vw;
+  }
+}
+
+.jumbotron_card.col-lg-5.col-md-7.col-xs-12 {
+  margin-top: 80px;
+  background-color: white;
+  height: 205px;
+  border-radius: 2px;
+  box-shadow: 0px 5px 10px #979797;
+  z-index: 2;
+  padding: 38px;
+}
+
+.jumbotron_card_title {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 54px;
+}
+
+.jumbotron_card_button {
+  width: 100px;
+  height: 32px;
+  border-style: none;
+  border-radius: 16px;
+  background-color: #262626;
+  color: white;
+  font-size: 13px;
+}
+
+.jumbotron_card_button:hover {
+  opacity: 0.9;
+}
+
+.jumbotron_card_subtitle {
+  align-content: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron_wrapper.col-xs-12 {
+    height: 255px;
+  }
+
+  .jumbotron_card.col-lg-5.col-md-7.col-xs-12 {
+    height: 180px;
+    margin-top: 130px;
+    padding: 24px 0px;
+    text-align: center;
+  }
+
+  .jumbotron_card_title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .jumbotron_card_subtitle {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+/* Page_2 Jumbotron style end */
+
+/* Page_2 filter-bar style start */
+
+.filter-bar_wrapper.col-xs-12 {
+  height: 80px;
+  border-bottom: 1px solid rgb(75, 75, 75, 0.2);
+  align-content: center;
+  margin-bottom: 56px;
+}
+
+.filter-bar_card {
+  margin-right: 40px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+}
+
+.filter-bar_card a:focus {
+  color: #327430;
+}
+
+.filter-bar_card a:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 767px) {
+  .filter-bar_wrapper.col-xs-12 {
+    margin-top: 112px;
+    height: auto;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .filter-bar_card {
+    margin: auto;
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: #000;
+    line-height: 34px;
+  }
+
+  .filter-bar_cards + .create-line {
+    margin: auto;
+    width: 50px;
+    margin-bottom: 43px;
+  }
+}
+
+/* Page_2 filter-bar style end */
+
+/* Page_2 dishes cards style start */
+
+.title_dishes {
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 32px;
+}
+
+.dish_card_wrap {
+  margin-bottom: 50px;
+}
+
+.dish_card {
+  display: flex;
+  justify-content: space-between;
+  max-height: 160px;
+  flex-wrap: nowrap;
+  border: 1px solid rgb(75, 75, 75, 0.2);
+}
+
+.dish_card_wrap a:focus .dish_card,
+.dish_card_wrap a:hover .dish_card {
+  background: linear-gradient(
+    4deg,
+    rgba(117, 117, 117, 0.2) 4%,
+    rgba(216, 216, 216, 0.2) 100%
+  );
+  backface-visibility: 2;
+  .dish_card-subtitle-text {
+    visibility: visible;
+  }
+}
+
+.dish_card-thumb {
+  max-height: 100%;
+  width: 170px;
+}
+
+.dish_card-title,
+.dish_card-title-text,
+.dish_card-subtitle-text,
+.dish_card-subtitle-cost {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dish_card-title {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 16px 16px;
+}
+
+.dish_card-title-text {
+  margin-bottom: 4px;
+}
+
+.dish_card-subtitle-text {
+  visibility: hidden;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+
+.dish_card-subtitle-cost {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+@media only screen and (max-width: 991px) {
+  .dish_card_wrap.col-lg-6 {
+    margin-bottom: 32px;
+  }
+
+  .dish_card-thumb {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dish_card_wrap.col-lg-6 {
+    max-height: 102px;
+    margin-bottom: 16px;
+  }
+
+  .dish_card-thumb {
+    width: 102px;
+  }
+}
+
+/* Page_2 dishes cards style end */

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber Eats — Рестораны в Москве</title>
+    <link rel="stylesheet" href="./css/Uber-Eats.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css"
+    /> -->
+    <link rel="stylesheet" href="./css/flexboxgrid2.css" />
+    <link rel="shortcut icon" href="img/favicon_meme_cat.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <section class="header_wrapper col-xs-12">
+        <div class="container">
+          <div class="row between-xs middle-xs">
+            <div class="header_logo">
+              <a href="#">
+                <img src="./img/svg/logo.svg" alt="UBER EATS logo" />
+              </a>
+            </div>
+            <div class="header_buttons row middle-xs">
+              <div class="header_button">
+                <a href="#"><span>Войти</span></a>
+              </div>
+              <div class="header_button_cart hidden-xs">
+                <a href="#header_button_cart">
+                  <img src="./img/svg/cart.svg" alt="cart logo" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header end -->
+
+    <!-- search start -->
+    <main class="main">
+      <section class="search_wrapper col-xs-12">
+        <div class="container">
+          <div class="row">
+            <form class="search-form">
+              <p class="seach-form_info">
+                <input
+                  type="text"
+                  id="search-form_field"
+                  name="search-form_field"
+                  placeholder="Поиск по ресторанам и кухням"
+                  class="search-form_field"
+                />
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- search end -->
+
+      <!-- restaurant cards start -->
+      <section class="restaurants_wrapper col-xs-12">
+        <div class="container">
+          <div class="row">
+            <a href="#"><h1 class="title_city">Рестораны в Москве</h1></a>
+            <div class="restaurant_cards row">
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/Mac.png"
+                      alt="Макдоналдс — Газетный"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">Макдоналдс — Газетный</h3>
+                </a>
+                <p class="restaurant_card-subtitle">₽₽ • Бургеры</p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  25 - 35 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/DimSum.png"
+                      alt="DimSum & Co — ЦДМ"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">DimSum & Co — ЦДМ</h3>
+                </a>
+                <p class="restaurant_card-subtitle">
+                  ₽ • Японская • Китайская • Азиатская
+                </p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  40 - 50 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/Dvijok.png"
+                      alt="ДвижОК — Манежная"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">ДвижОК — Манежная</h3>
+                </a>
+                <p class="restaurant_card-subtitle">
+                  ₽ • Американская • Европейская
+                </p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  35 - 45 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/H9.png"
+                      alt="НЯ — NHA"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">НЯ — NHA</h3>
+                </a>
+                <p class="restaurant_card-subtitle">₽₽ • Вьетнамская</p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  30 - 40 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/Tochka G.png"
+                      alt="Точка Дзы — Цветной"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">Точка Дзы — Цветной</h3>
+                </a>
+                <p class="restaurant_card-subtitle">₽₽ • Вьетнамская</p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  40 - 50 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/Cinnabon.png"
+                      alt="Cinnabon"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">Cinnabon</h3>
+                </a>
+                <p class="restaurant_card-subtitle">
+                  ₽ • Выпечка • Десерты • Капкейки
+                </p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  25 - 35 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/Pizzelove.png"
+                      alt="PIZZELOVE"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">PIZZELOVE</h3>
+                </a>
+                <p class="restaurant_card-subtitle">₽₽ • Пицца</p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  15 - 25 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/Z cafe.png"
+                      alt="Zю кафе — Тверская"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">Zю кафе — Тверская</h3>
+                </a>
+                <p class="restaurant_card-subtitle">₽₽ • Японская</p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  25 - 35 мин
+                </p>
+              </div>
+              <div class="restaurant_card col-lg-4 col-md-6">
+                <div class="restaurant_card-pic">
+                  <a href="./Pushkin-traktir.html">
+                    <img
+                      src="./img/BBQ cafe.png"
+                      alt="Bar BQ Cafe — Манежная"
+                      class="restaurant_card-thumb"
+                    />
+                  </a>
+                </div>
+                <a href="./Pushkin-traktir.html">
+                  <h3 class="restaurant_card-title">Bar BQ Cafe — Манежная</h3>
+                </a>
+                <p class="restaurant_card-subtitle">₽₽₽ • Европейская</p>
+                <p class="restaurant_card-subtitle-time_delivery">
+                  30 - 40 мин
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- restaurant cards end -->
+
+      <div class="btn-up_wrapper">
+        <button class="btn-up">
+          <a href="#">
+            <img
+              src="./img/svg/btn-up.svg"
+              alt="Button Up"
+              class="btn-up-img"
+            />
+          </a>
+        </button>
+      </div>
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer">
+      <section class="footer_wrapper col-xs-12">
+        <div class="container">
+          <div class="row">
+            <!-- footer logo start -->
+            <div class="footer_logo">
+              <a href="#">
+                <img src="./img/svg/white-logo.svg" alt="UBER EATS logo" />
+              </a>
+            </div>
+            <!-- footer logo end -->
+
+            <!-- footer nav-panel start -->
+            <div class="create-line"></div>
+            <div class="footer_card col-md-3 col-xs-7">
+              <div class="dropdown">
+                <img
+                  src="./img/svg/world.svg"
+                  alt="world ico"
+                  class="world-ico"
+                />
+                <button class="dropbtn">Русский</button>
+                <div class="dropdown-content">
+                  <a href="#">English</a>
+                  <a href="#">Deutsch</a>
+                  <a href="#">Español</a>
+                  <a href="#">中國人</a>
+                </div>
+                <img
+                  src="./img/svg/dropdown-ico.svg"
+                  alt="dropdown ico"
+                  class="dropdown-ico"
+                />
+              </div>
+              <div class="footer_socials">
+                <div class="social_title row">
+                  <p class="social_title_hashtag">#</p>
+                  <p class="social_title_text">UberEats</p>
+                </div>
+                <div class="socials_ico row">
+                  <div class="facebook-ico">
+                    <a href="#">
+                      <img src="./img/svg/facebook.svg" alt="Facebook logo" />
+                    </a>
+                  </div>
+                  <div class="twitter-ico">
+                    <a href="#">
+                      <img src="./img/svg/twitter.svg" alt="Twitter logo" />
+                    </a>
+                  </div>
+                  <div class="instagram-ico">
+                    <a href="#">
+                      <img src="./img/svg/instagram.svg" alt="instagram logo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer_card col-md-1"></div>
+            <div class="footer_card col-md-4">
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-text">Об UberEats</p>
+                </a>
+              </div>
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-text">Станьте партнёром по доставке</p>
+                </a>
+              </div>
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-text">Станьте парнёром-рестораном</p>
+                </a>
+              </div>
+            </div>
+            <div class="footer_card col-md-4">
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-text">Все города</p>
+                </a>
+              </div>
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-text">Цены</p>
+                </a>
+              </div>
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-text">Помощь</p>
+                </a>
+              </div>
+              <div class="footer_link">
+                <a href="#">
+                  <p class="footer_link-FAQs">FAQs</p>
+                </a>
+              </div>
+            </div>
+            <!-- footer nav-panel end -->
+
+            <!-- footer dowlnload app links start -->
+            <div class="download_links">
+              <div class="store_link_wrap">
+                <a href="#">
+                  <img
+                    src="./img/Download_on_the_App_Store.png"
+                    alt="App store"
+                    class="store-thumb"
+                  />
+                </a>
+              </div>
+              <div class="store_link_wrap">
+                <a href="#">
+                  <img
+                    src="./img/Download_on_the_GPlay_Store.png"
+                    alt="Google Play store"
+                    class="store-thumb"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- footer dowlnload app links end -->
+
+            <!-- footer privacy & terms start -->
+            <div class="footer_pt_link col-md-4">
+              <a href="#">
+                <p class="footer_pt_link-text">© 2017 Uber Technologies Inc.</p>
+              </a>
+            </div>
+            <div class="footer_pt_link col-md-4">
+              <a href="#">
+                <p class="footer_pt_link-text">Обработка персональных данных</p>
+              </a>
+            </div>
+            <div class="footer_pt_link col-md-4">
+              <a href="#">
+                <p class="footer_pt_link-text">Пользовательское соглашение</p>
+              </a>
+            </div>
+
+            <!-- footer privacy & terms end -->
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
