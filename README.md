@@ -4,20 +4,20 @@
 
 ## Скриншоты интерфейса
 
-*Десктопная версия*
-![Десктопная версия 1](./screenshots/desktop-1.png)
-![Десктопная версия 2](./screenshots/desktop-2.png)
-![Десктопная версия 3](./screenshots/desktop-3.png)
+### 🖥️ Десктоп
+<img src="./screenshots/desktop-1.png" width="600"><br>
+<img src="./screenshots/desktop-2.png" width="600"><br>
+<img src="./screenshots/desktop-3.png" width="600">
 
-*Мобильная версия*
-![Мобильная версия 1](./screenshots/mobile-1.png)
-![Мобильная версия 2](./screenshots/mobile-2.png)
-![Мобильная версия 3](./screenshots/mobile-3.png)
+### 📱 Мобильная
+<img src="./screenshots/mobile-1.png" width="300"><br>
+<img src="./screenshots/mobile-2.png" width="300"><br>
+<img src="./screenshots/mobile-3.png" width="300">
 
-*Планшетная версия*
-![Планшетная версия 1](./screenshots/tablet-1.png)
-![Планшетная версия 2](./screenshots/tablet-2.png)
-![Планшетная версия 3](./screenshots/tablet-3.png)
+### 📟 Планшет
+<img src="./screenshots/tablet-1.png" width="450"><br>
+<img src="./screenshots/tablet-2.png" width="450"><br>
+<img src="./screenshots/tablet-3.png" width="450">
 
 ## Ключевые особенности
 * **Pixel Perfect**: Максимальное соответствие дизайн-макету.
