@@ -4,20 +4,19 @@
 
 ## Скриншоты интерфейса
 
-### 🖥️ Десктоп
-<img src="./screenshots/desktop-1.png" width="600"><br>
-<img src="./screenshots/desktop-2.png" width="600"><br>
-<img src="./screenshots/desktop-3.png" width="600">
+### 🖥️ Десктопная версия
+<img src="./screenshots/desktop-1.png"><br>
+<img src="./screenshots/desktop-2.png"><br>
+<img src="./screenshots/desktop-3.png">
 
-### 📱 Мобильная
-<img src="./screenshots/mobile-1.png" width="300">
-<img src="./screenshots/mobile-2.png" width="300">
-<img src="./screenshots/mobile-3.png" width="300">
+### 📱 Мобильная версия
+| <img src="./screenshots/mobile-1.png" width="200"> | <img src="./screenshots/mobile-2.png" width="200"> | <img src="./screenshots/mobile-3.png" width="200"> |
+|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
 
-### 📟 Планшет
-<img src="./screenshots/tablet-1.png" width="450">
-<img src="./screenshots/tablet-2.png" width="450">
-<img src="./screenshots/tablet-3.png" width="450">
+### 📟 Планшетная версия
+| <img src="./screenshots/tablet-1.png" width="300"> | <img src="./screenshots/tablet-2.png" width="300"> |
+|----------------------------------------------------|----------------------------------------------------|
+| <img src="./screenshots/tablet-3.png" width="300"> | &nbsp; |
 
 ## Ключевые особенности
 * **Pixel Perfect**: Максимальное соответствие дизайн-макету.
