@@ -10,13 +10,13 @@
 <img src="./screenshots/desktop-3.png" width="600">
 
 ### 📱 Мобильная
-<img src="./screenshots/mobile-1.png" width="300"><br>
-<img src="./screenshots/mobile-2.png" width="300"><br>
+<img src="./screenshots/mobile-1.png" width="300">
+<img src="./screenshots/mobile-2.png" width="300">
 <img src="./screenshots/mobile-3.png" width="300">
 
 ### 📟 Планшет
-<img src="./screenshots/tablet-1.png" width="450"><br>
-<img src="./screenshots/tablet-2.png" width="450"><br>
+<img src="./screenshots/tablet-1.png" width="450">
+<img src="./screenshots/tablet-2.png" width="450">
 <img src="./screenshots/tablet-3.png" width="450">
 
 ## Ключевые особенности
